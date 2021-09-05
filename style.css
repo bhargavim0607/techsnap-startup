@@ -359,7 +359,7 @@ h5{
 }
 .ani-card{
 	width: 70%;
-	height: 50%;
+	height: 20rem;
 }
 .infocard p{
 	font-size: 100%;
@@ -780,7 +780,6 @@ textarea:focus {
 	}
 	.ani-card{
 		width: 36rem ;
-		font-size: 100rem;
 
 	}
 	section .cards .text-card{
@@ -840,9 +839,6 @@ textarea:focus {
 	}
 	.banner-content p{
 		font-size: 1.3rem;
-	}
-	.infocard p{
-		font-size: 30rem;
 	}
 }
 
