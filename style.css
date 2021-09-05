@@ -320,7 +320,7 @@ h5{
 	background-repeat: no-repeat;
 	background-size: 70% 70%;
 	background-position: center;
-	background-color: rgb(92, 86, 86);
+	background-color:black;
 	width: 100%;
 	
 }
@@ -354,13 +354,16 @@ h5{
 	top: 50%;
 	left: 50%;
 	width: 150%;
-	height: 72%;
+	height: 70%;
 	transform: translate(-50%,-59%);
 }
 .ani-card{
 	width: 70%;
+	height: 50%;
 }
-
+.infocard p{
+	font-size: 100%;
+}
 .pos-left{
 	position: relative;
 	left: -60px;
@@ -462,7 +465,7 @@ textarea:focus {
 	
 }
 .infocard{
-  background-color: rgb(8, 8, 8);
+	background-image: linear-gradient(45deg,#2e282b,rgb(44, 39, 44));
   margin-bottom: 20px;
   padding: 20px;
   color:gray;
@@ -475,7 +478,7 @@ textarea:focus {
 	color: white;
 }
 .infocard:hover{
-	background-image: linear-gradient(45deg,#2e282b,rgb(44, 39, 44));
+	background-image: linear-gradient(45deg,#dfd5da,rgb(122, 111, 122));
 }
 
  
@@ -773,10 +776,12 @@ textarea:focus {
 	.class3-img{
 		width: 36rem ;
 		transform: translate(-53%,-62%) ;
-		height: 80% ;
+		height: 70% ;
 	}
 	.ani-card{
 		width: 36rem ;
+		font-size: 100rem;
+
 	}
 	section .cards .text-card{
 		max-width: 36rem ; 
@@ -835,6 +840,9 @@ textarea:focus {
 	}
 	.banner-content p{
 		font-size: 1.3rem;
+	}
+	.infocard p{
+		font-size: 30rem;
 	}
 }
 
